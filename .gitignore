@@ -1,0 +1,31 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# API response cache (regeneratable)
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Private / unpublished material — not part of the public repo
+output/
+*.pdf
+*.xlsx
+*.zip
+ncbi exon part1/
+Results_definition2.md
+.obsidian/
